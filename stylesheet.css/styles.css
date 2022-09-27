@@ -222,3 +222,42 @@ a {
     background-color: #FFFFFF;
     cursor: pointer;
 }
+
+.section5 {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 1150px;
+    gap: 60px;
+    flex-direction: column;
+    background-color: #9C69E2;
+    border-radius: 50px;
+    height: 700px;
+}
+
+.sec5-header {
+    width: 405px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.inside-content {
+    display: flex;
+    width: 950px;
+    height: 330px;
+    margin: 0 auto;
+    flex-direction: row;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.foot-section5 {
+    display: flex;
+    width: 950px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 90px;
+}
