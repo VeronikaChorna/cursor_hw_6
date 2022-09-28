@@ -5,13 +5,18 @@ body {
     font-family: 'Lato';
 }
 
+.header-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .header {
     display: flex;
     width: 1150px;
     flex-direction: row;
     align-items: center;
     margin-bottom: 150px;
-    justify-content: flex-end;
 }
 
 .logo {
